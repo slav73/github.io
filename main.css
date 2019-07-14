@@ -3,7 +3,7 @@
 }
 
 .header {
-  background: #2b2b2b;
+  background: #4c73b6;
   color: #fff;
 }
 
@@ -14,18 +14,18 @@
 
 .container {
   position: relative;
-  height: 77px;
+  height: 30px;
 }
 
 .logo {
   position: absolute;
-  top: 13px;
+  top: 18px;
   left: 0;
 }
 
 .contacts {
   position: absolute;
-  top: 13px;
+  top: 18px;
   right: 0;
 }
 
