@@ -17,7 +17,7 @@ body {
 
 .header__container {
   position: relative;
-  height: 77px;
+  min-height: 77px;
 }
 
 .logo {
@@ -132,7 +132,7 @@ body {
 }
 
 .menu__text--icon--team:hover:before {
-  background-image: url('./img/icons/menu/team_icon_icon-hover.png'); 
+  background-image: url('./img/icons/menu/team_icon-hover.png'); 
 }
 
 .airplanet__img {
