@@ -9,8 +9,8 @@
   margin: 0 auto;
 }
 
-.container {
-  width: 1050px;
+.container, .topnav {
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -29,8 +29,9 @@
 
 .logo__image {
   position: absolute;
-  top: 13px;
-  left: 0;
+  top: 21px;
+  left: 21px;
+  font-size: 0;
 }
 
 .contacts {
@@ -49,6 +50,7 @@
 }
 
 .contacts__shedule {
+  color: inherit;
   opacity: .7;
   font-size: 14px;
 }
