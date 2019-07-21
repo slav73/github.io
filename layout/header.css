@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #4c73b6;
+    color: #fff;
+    margin-bottom: 13px;
+  }
+  
+  .header__container {
+    position: relative;
+    min-height: 77px;
+  }
+  
+  .header__logo {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    font-size: 0;
+  }

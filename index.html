@@ -35,13 +35,13 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__text menu__text--icon--main">Главная</a>
+                            <a href="#" class="menu__text--active menu__text--icon-main">Главная</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__text menu__text--icon--feed">Отзывы</a>
+                            <a href="#" class="menu__text menu__text--icon-feed">Отзывы</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__text menu__text--icon--team">Экипаж</a>
+                            <a href="#" class="menu__text menu__text--icon-team">Экипаж</a>
                         </li>
                     </ul>
                 </nav>
@@ -57,15 +57,15 @@
                             <img src="./img/tariffs/flower.png" alt="Стандарт" class="announce-icon">
                         </div>
                         <div class="announce-text">
-                            <h2 class="announce-title">СТАНДАРТ</h2>
+                            <h2>СТАНДАРТ</h2>
                             <p >Создан для вашего комфортного отдыха</p>
                             <ul>
                                 <li>Питание включено</li>
                                 <li>Багаж (5 кг)</li>
                                 <li>Детское кресло</li>
                             </ul>
-                            <p class="announce__price">
-                                <span class="announce__dollar">$</span><span class="price">19</span>
+                            <p>
+                                <span class="announce-dollar">$</span><span class="announce-price">19</span>
                             </p>
                         </div>
                     </li>
@@ -73,31 +73,35 @@
                         <div class="announce-icon-bg">
                             <img src="./img/tariffs/mark-as-favorite-star.png" alt="ПРЕМИУМ" class="announce-icon">
                         </div>
-                        <h2 class="announce-title">ПРЕМИУМ</h2>
-                        <p>Для любителей хороших впечатлений</p>
-                        <ul>
-                            <li>Питание включено</li>
-                            <li>Багаж (5 кг)</li>
-                            <li>Детское кресло</li>
-                        </ul>
-                        <p>
-                            <span class="announce__dollar">$</span><span class="price">39</span>
-                        </p>
+                        <div class="announce-text">
+                            <h2>ПРЕМИУМ</h2>
+                            <p>Для любителей хороших впечатлений</p>
+                            <ul>
+                                <li>Питание включено</li>
+                                <li>Багаж (5 кг)</li>
+                                <li>Детское кресло</li>
+                            </ul>
+                            <p>
+                                <span class="announce-dollar">$</span><span class="announce-price">39</span>
+                            </p>
+                        </div>
                     </li>
                     <li class="announces-list__item">
                         <div class="announce-icon-bg">
                             <img src="./img/tariffs/painter-palette.png" alt="ЛАКШЕРИ" class="announce-icon">
                         </div>
-                        <h2 class="announce-title">ЛАКШЕРИ</h2>
-                        <p class="announce__desc">Все самое лучшее и незабываемое</p>
-                        <ul class="announce-features">
-                            <li>Питание включено</li>
-                            <li>Багаж (5 кг)</li>
-                            <li>Детское кресло</li>
-                        </ul>
-                        <p class="announce__price">
-                            <span class="announce__dollar">$</span><span class="price">99</span>
-                        </p>
+                        <div class="announce-text">
+                            <h2>ЛАКШЕРИ</h2>
+                            <p>Все самое лучшее и незабываемое</p>
+                            <ul>
+                                <li>Питание включено</li>
+                                <li>Багаж (5 кг)</li>
+                                <li>Детское кресло</li>
+                            </ul>
+                            <p>
+                                <span class="announce-dollar">$</span><span class="announce-price">99</span>
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -161,7 +165,7 @@
                         <li class="pagination__item">
                             <a href="#" class="pagination__item-link">&lsaquo;</a>
                         </li>
-                        <li class="pagination__item">
+                        <li class="pagination__item--active">
                             <span class="pagination_item-text">
                                 <a href="#" class="pagination__item-link">1</a>
                             </span>
@@ -195,7 +199,7 @@
         <!-- Футер -->
         <footer class="footer">
             <div class="container footer__container">
-                <div class="about">Сделано с любовью и старанием на курсе "HTML + CSS" в <strong>LoftSchool.</strong><br />Автор работы:
+                <div class="footer__about">Сделано с любовью и старанием на курсе "HTML + CSS" в <strong>LoftSchool.</strong><br />Автор работы:
                     <strong>Шатров Вячеслав</strong>
                 </div>
                 <div class="footer__logo">
@@ -203,23 +207,43 @@
                         <img src="./img/logo/logo.png" class="logo" alt="airPlanet летайте нашими самолетами">
                     </a>
                 </div>
-                <div class="socials">
-                    <p class="socials__title">Наши социальные сети</p>
+                <div class="footer__socials">
+                    <span class="socials__title">Наши социальные сети</span>
                     <ul class="socials__list">
                         <li class="socials__item">
-                            <a href="#" class="socials__text socials__text--icon--vk">
-                                <img src="./img/socials/vk.png" alt="VKontakte">
-                            </a>
+                            <div class="socials__icon">
+                                <a href="#">
+                                    <img src="./img/socials/vk.png" alt="VKontakte">
+                                </a>
+                            </div>
                         </li>
                         <li class="socials__item">
-                            <a href="#" class="socials__text socials__text--icon--fb">
-                                <img src="./img/socials/fb.png" alt="Facebook">
-                            </a>
+                            <div class="socials__icon">
+                                <a href="#">
+                                    <img src="./img/socials/fb.png" alt="Facebook">
+                                </a>
+                            </div>    
                         </li>
                         <li class="socials__item">
-                            <a href="#" class="socials__text socials__text--icon--fb">
-                                <img src="./img/socials/google.png" alt="Google+">
-                            </a>
+                            <div class="socials__icon">
+                                <a href="#">
+                                    <img src="./img/socials/google.png" alt="Google+">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="socials__item">
+                            <div class="socials__icon">
+                                <a href="#">
+                                    <img src="./img/socials/twitter.png" alt="Twitter">
+                                </a>
+                            </div>    
+                        </li>
+                        <li class="socials__item">
+                            <div class="socials__icon">
+                                <a href="#">
+                                    <img src="./img/socials/mail.png" alt="Mail">
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
