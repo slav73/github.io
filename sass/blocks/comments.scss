@@ -1,0 +1,16 @@
+.comments {
+    display:flex;
+    font-family: $alegreya;
+    &__page {
+        @include page;
+    }
+    &__header {
+        display: flex;
+        background-color: red;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 700;
+    }
+}

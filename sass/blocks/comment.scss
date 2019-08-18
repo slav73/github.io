@@ -1,0 +1,61 @@
+.comment {
+    display: flex;
+    justify-content: space-between;
+    background: url('../img/bg/branch.png')  center center no-repeat;
+    margin: 0 80px 25px;
+    &__user-photo {
+        margin: 50px 20px 35px 45px;
+    }
+    &__text {
+        margin: 68px 188px 0 0;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    &__desc {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
+    &__username {
+        color: #666666;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.comments {
+    display:flex;
+    font-family: $alegreya;
+    &__page {
+        @include page;
+    }
+    &__header {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+        margin-bottom: 44px;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    &__header--strawberry {
+        position: absolute;
+        top: 75px;
+        right: 15px;
+    }
+    &__decor {
+        position: relative;
+    }
+    &__decor--leaf2 {
+        position: absolute;
+        top: -100px;
+    }
+    &__decor--berries2 {
+        position: absolute;
+        top: -40px;
+    }
+}

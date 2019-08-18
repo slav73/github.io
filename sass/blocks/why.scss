@@ -1,0 +1,76 @@
+.why {
+    display:flex;
+    font-family: $alegreya;
+    &__page {
+        @include page;
+    }
+    &__header {
+        display:flex;
+        flex-direction: column;
+        align-items: center;  
+        margin: 115px 350px 57px;  
+    }
+    &__content {
+        margin: 0 80px;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 80px;
+    }
+    &__item:last-child {
+        margin-right: 0;
+    }
+    &__circle {
+        display: inline-block;
+        position: relative;
+        background: $grey;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        margin-bottom: 35px;
+    }
+    &__icon {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    &__slogan {
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__subslogan {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__decor--leaf {
+        top: 188px;
+        position: absolute;
+        opacity: 0.2;
+    }
+    &__decor--raspberry {
+        position: absolute;
+        bottom: -60px;
+    }
+}

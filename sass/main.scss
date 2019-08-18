@@ -1,0 +1,20 @@
+//normalize
+@import "_misc/normalize";
+
+@import "_misc/fonts";
+@import "_misc/layout.scss";
+
+@import "settings/vars";
+
+@import "blocks/section.scss"; 
+@import "blocks/mixins.scss";
+
+@import "blocks/chocco.scss"; 
+@import "blocks/header.scss";
+@import "blocks/buttons.scss";
+@import "blocks/advantages.scss";
+@import "blocks/decors.scss";
+@import "blocks/why.scss";
+@import "blocks/comments.scss";
+@import "blocks/comment.scss";
+@import "blocks/users.scss";

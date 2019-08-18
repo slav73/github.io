@@ -1,0 +1,27 @@
+.chocco {
+    display:flex;
+    background: url("../img/bg/watermark.png") center center / cover no-repeat;
+    &__page {
+        @include page;
+    }
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        font-family: $alegreya;
+        color: #fff;
+        margin-top: 100px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px; 
+    }
+    &__title {       
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        font-size: 22px;
+    }
+}
